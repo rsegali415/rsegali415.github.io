@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+}
+
+.backgroundPic {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/NYC_Downtown_Manhattan_Skyline_seen_from_Paulus_Hook_2019-12-20_IMG_7347_FRD_%28cropped%29.jpg/1200px-NYC_Downtown_Manhattan_Skyline_seen_from_Paulus_Hook_2019-12-20_IMG_7347_FRD_%28cropped%29.jpg");
+  height: 65vh;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+  .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.38);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .overlay h1 {
+    font-size: 65px;
+    letter-spacing: 2px;
+    margin: 0 0 5px;
+  }
+  
+  .overlay p {
+    margin: 0;
+    font-size: 26px;
+}
+
+#skillz {
+  text-align: center;
+}
+
+#skill {
+  display: block;
+  padding-bottom:7px;
+  margin-right: 0px;
+}
+
+#social {
+text-align: center;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 60px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+  transition: all ease .65s;
+  z-index: 100;
+  width: 100%;
+}
+
+span {
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+li #head {
+  text-decoration: none;
+  color:black;
+}
+
+li #head:hover {
+  color: #eb750e;
+  font-size: 18px;
+}
