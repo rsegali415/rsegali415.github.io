@@ -32,14 +32,14 @@ body {
   }
   
   .overlay h1 {
-    font-size: 65px;
-    letter-spacing: 2px;
-    margin: 0 0 5px;
+    font-size: 4.063rem;
+    letter-spacing: .125;
+    margin: 0 0 .313px;
   }
   
   .overlay p {
     margin: 0;
-    font-size: 26px;
+    font-size: 1.625rem;
 }
 
 #skillz {
@@ -48,7 +48,7 @@ body {
 
 #skill {
   display: block;
-  padding-bottom:7px;
+  padding-bottom:.438;
   margin-right: 0px;
 }
 
@@ -74,7 +74,7 @@ nav {
 }
 
 span {
-  font-size: 24px;
+  font-size: 1.5rem;
   margin-left: 10px;
 }
 
@@ -86,7 +86,7 @@ ul {
 
 li {
   display: inline-block;
-  margin-right: 15px;
+  margin-right: .938rem;
   text-decoration: none;
 }
 
@@ -97,5 +97,5 @@ li #head {
 
 li #head:hover {
   color: #eb750e;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
